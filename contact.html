@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Contact — Lyceum of Aparri</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar"><div class="nav-left"><img src="images/images.png" class="nav-logo"><span class="brand-text">Lyceum of Aparri</span></div><div class="nav-right desktop-only"><a href="index.html">Home</a><a href="news.html">News</a><a href="courses.html">Courses</a><a href="gallery.html">Gallery</a><a href="about.html">About</a><a href="contact.html" class="highlight-link">Contact</a></div><button id="hamburger5" class="hamburger mobile-only">☰</button></nav>
+<div id="mobileMenu5" class="mobile-menu"></div>
+
+<header class="page-header"><h1>Contact Us</h1><p>Send a message or visit our campus</p></header>
+
+<section class="contact-form-section">
+  <form class="contact-form" onsubmit="alert('Demo only — connect to backend to submit'); return false;">
+    <label>Name<input type="text" required></label>
+    <label>Email<input type="email" required></label>
+    <label>Message<textarea rows="5" required></textarea></label>
+    <button class="btn primary" type="submit">Send Message</button>
+  </form>
+
+  <div class="map-large">
+    <iframe src="https://maps.google.com/maps?q=Aparri%2C%20Cagayan&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+  </div>
+</section>
+
+<footer class="simple-footer">© 2025 Lyceum of Aparri</footer>
+<script src="js/menu.js"></script>
+</body>
+</html>
